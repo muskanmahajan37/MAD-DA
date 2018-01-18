@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Question 1 - Vinit Shahdeo</title>
+  <style>
+
+      body{
+          font-family: verdana;
+      }
+*{
+  margin:0;
+  padding:0;
+}
+
+body{
+  background:rgb(246, 248, 248);
+}
+      .logo
+      {
+          width:200px;
+          height: 100px;
+      }
+      #news{
+          padding: 10px;
+      }
+#menu{
+  position:relative;
+  width:100%;
+  background:teal;
+  
+  display:box;
+  box-orient: horizontal;
+  box-pack:center;
+  
+  box-shadow: inset 0px -1px 3px 0px rgba(0, 0, 0, 0.9); 
+}
+#menu ul{
+  list-style:none;
+  font-size:0;
+  display:box;
+  max-width:$wrapper_width;
+  box-flex:1;
+}
+#menu li{
+  box-shadow:rgba(255, 255, 255, 0.11) 1px 0px 0px 0px;
+  font:18px Tahoma;
+  display:inline-block;
+  
+  border-right-color: rgba(0, 0, 0, 0.3);
+  border-right-style: solid;
+  border-right-width: 1px;
+  
+  transition:background .5s ease;
+}
+#menu li:first-child{
+  box-shadow:rgba(255, 255, 255, 0.11) 1px 0px 0px   0px, rgba(255, 255, 255, 0.11) -1px 0px 0px   0px;
+  border-left-color: rgba(0, 0, 0, 0.3);
+  border-left-style: solid;
+  border-left-width: 1px;
+}
+#menu li:hover{
+  background:aqua;
+    color: dimgrey;
+  
+}
+#menu a{
+  display:block;
+  padding:20px;
+  text-shadow: 0px 1px 3px #0a0a0a;
+}
+#menu a:link {
+color: #FFF;
+text-decoration: none;
+}
+ 
+#menu a:active {
+color: #FFF;
+text-decoration: none;
+outline:none;
+}
+ 
+#menu a:visited {
+color: #FFF;
+text-decoration: none;
+}
+#menu a:hover {
+color: $menu_color;
+text-decoration: none;
+text-shadow: none;
+}
+
+#big_wrapper{
+  display:block;
+  max-width:$wrapper_width;
+  margin:0 auto;
+  background:#FFF;
+  border:1px solid rgba(0,0,0,0.5);
+  border-top:none;
+  box-shadow: 1px 2px 5px 0px rgba(0, 0, 0, 0.7);
+  border-radius: 0px 0px 8px 8px;
+}
+#content_wrapper{
+  display:box;
+  box-flex:1;
+  max-width:$wrapper_width;
+  box-sizing:border-box;
+  padding:10px;
+}
+#content_wrapper > *{
+  margin-right:10px;
+}
+
+#content{
+  box-flex:1;
+}
+#main_aside{
+  width:35%;
+  border-left-color: rgba(0, 0, 0, 0.3);
+  border-left-style: solid;
+  border-left-width: 1px;
+  padding-left:10px;
+  box-sizing:content-box;
+}
+#main_aside article {
+  @include default-article;
+}
+#content article{
+  @include default-article;
+}
+
+      .vit-image{
+          width:400px;
+          height:300px;
+          border: 2px solid teal;
+      }
+.footer{
+  text-align:center;
+  border-top:1px dotted $menu_color;
+  display:block;
+}
+      
+    </style>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+
+</head>
+<br>
+<center><img src="vitlogo.jpg" class="logo"/></center>
+
+<body>
+  <br>
+<br>
+  <html lang="en">
+<head>
+  <meta charset="utf-8"/>
+</head>
+<body>
+  <center>
+<nav id="menu">
+  <ul >
+ 
+  	
+  	<center>
+    <li><a href="#">Presentation</a></li>
+    <li><a href="#">Studies </a></li>
+    <li><a href="#">Staff</a></li>
+   </center>
+  </ul>
+</nav>
+</center>
+<div id="big_wrapper">
+<div id="content_wrapper">
+  <section id="content">
+    <h1><u>News Corner</u></h1>
+    <br>
+    <article>
+      <header>Dr. G.Viswanathan elected as President Indian Economic Association. (15th Jan 2018)</header><br>
+        
+ Founder Chancellor of Vellore Institute of Technology (VIT), Dr. G.Viswanathan has been unanimously elected as President of the Centenary Second Year Conference of the Indian Economic Association.
+The First Year of the Centenary Celebrations was held at Acharya Nagarjuna University in Guntur, Andhra Pradesh between December 27 and 30, 2017. The selection was made during the General Body to be President of Centenary Second Year Conference of IEA.
+ 
+ 
+      
+    </article>
+    <article>
+      <br><hr><br>
+      <header>Chancellor Dr. G. Viswanathan called on Dr. Ali Mohamad Shein (15th Jan 2018)</header><br>
+     VIT Founder and Chancellor Dr. G. Viswanathan called on Dr. Ali Mohamad Shein, President of Zanzibar, who also happens to be the chancellor of the State University of Zanzibar - SUZA. Dr.Shein and Dr. G. Viswanathan had discussions on various issues and expressed his willingness to support Zanzibar's endeavour to develop skilled technical manpower to the nation and also to their economic development.
+    </article>
+    <article>
+      <br><hr><br>
+      <header> Dr. G. Viswanathan called on Mr. Danny Faure (15th Jan 2018)</header><br>
+    VIT Founder and chancellor Dr. G. Viswanathan called on Mr. Danny Faure, President of Seychelles recently. Dr. G. Viswanathan called on Mr. Danny Faure during his visit to the Seychelles and had discussions with him regarding various issues, including cooperation possibilities between VIT and Seychelles Institute of Technology. Dr. G. Viswanathan also expressed his willingness to train teachers of Seychelles at VIT.
+    </article>
+    <br><hr><br>
+  </section>
+    
+  <div id="main_aside">
+    <section id="news">
+      <article>
+         <h1><u>Announcements</u></h1>
+     <br>
+     <ul>
+      <li><a href="#">VITEEE-2018-APPLICATION OPEN.</a><br>(B.Tech. Admission) | Application Status  </li> <br>
+       <li><a href="#"> Mock test for VITEEE-2018  </a><br>
+Admission - 2018-19  </li> <br>
+        <li><a href="#"> B.Arch | Law Programme   </a> </li> <br>
+         <li><a href="#">MBA Application  </a> </li> <br>
+          <li><a href="#">NRI Admissions (2018 - 19)  </a> </li> <br>
+          <ul>
+        <footer></footer>
+      </article>
+    </section>
+    <section id="ads">
+      <article>
+       
+        <img src="vit.jpg" class="vit-image"/>
+        <footer></footer>
+      </article>
+    </section>
+  </div>
+</div>
+  
+<center><footer>
+
+        <div class="container">
+            <div class="row">
+                 <div class="col-md-4">
+                    <span class="copyright">Contact: <a href="">info@university.com</a></span>
+                </div>
+               
+                <div class="col-md-4">
+                    <span class="copyright">&copy VIT University. 2018</span>
+                </div>
+                
+            </div><br>
+         </div>
+</footer></center>
+</div>
+</body>
+</html>
+</body>
+
+</html>
